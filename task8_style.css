@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0;
 }
 
-header{
-	padding: 33px 0;
+header {
+    padding: 33px 0;
 }
 
 .container {
@@ -14,15 +14,15 @@ header{
     border-bottom: 1px solid #828282;
 }
 
-.menu ul{
+.menu ul {
     margin: 0;
     padding: 0;
     color: #828282;
 }
 
-/*.menu ul li:fist-child {
+.selected {
     color: #070707;
-}*/
+}
 
 .menu ul li {
     display: inline-block;
@@ -35,23 +35,26 @@ header{
     margin-right: 0;
 }
 
-.info{
+.info {
     width: 940.6px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
     height: 134px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-.info h1{
+.info h1 {
     font-size: 47px;
     width: 123.5px;
     text-align: left;
     margin: 0;
     padding: 0;
-    margin-left: 251px;
 }
 
-.info p{
+.info p {
     display: inline-block;
     font-size: 18px;
     width: 155px;
@@ -59,13 +62,19 @@ header{
     padding: 0;
 }
 
-img{
+.languages{
+    font-weight: bold;
+    transform: rotate(-90deg);
+    margin-bottom: 30px;
+}
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.backgr, .white{
+.backgr, .white {
     width: auto;
     height: auto;
     background-color: #F6F6F6;
@@ -76,7 +85,7 @@ img{
     padding-bottom: 90px;
 }
 
-h3{
+h3 {
     margin: 0;
     padding: 0;
     font-size: 34px;
@@ -84,7 +93,7 @@ h3{
     margin-bottom: 18px;
 }
 
-.backgr p, .white p{
+.backgr p, .white p {
     font-size: 18px;
     color: #070707;
     text-align: center;
@@ -93,27 +102,32 @@ h3{
     margin-bottom: 50px;
 }
 
-.white{
+.white {
     background-color: white;
     margin: 0;
 }
 
-.white p{
+.white p {
     margin-bottom: 0;
     margin-bottom: 83px;
     margin-top: 70px;
 }
 
-.all_cards{
+.all_cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.card{
+.card {
     margin-right: 168px;
 }
 
 .card:last-child {
     margin-right: 0;
+}
+
+.card p {
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
