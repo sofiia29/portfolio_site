@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+header{
+	padding: 33px 0;
+}
+
+.container {
+    width: 940.6px;
+    margin: auto;
+    padding-bottom: 32px;
+    overflow: auto;
+    border-bottom: 1px solid #828282;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    color: #828282;
+}
+
+/*.menu ul li:fist-child {
+    color: #070707;
+}*/
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 155.65px;
+    font-size: 18px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.info{
+    width: 940.6px;
+    display: flex;
+    flex-direction: row;
+    height: 134px;
+}
+
+.info h1{
+    font-size: 47px;
+    width: 123.5px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 251px;
+}
+
+.info p{
+    display: inline-block;
+    font-size: 18px;
+    width: 155px;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backgr, .white{
+    width: auto;
+    height: auto;
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+    margin-top: 104px;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.backgr p, .white p{
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.white{
+    background-color: white;
+    margin: 0;
+}
+
+.white p{
+    margin-bottom: 0;
+    margin-bottom: 83px;
+    margin-top: 70px;
+}
+
+.all_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin-right: 168px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
