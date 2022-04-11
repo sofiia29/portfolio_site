@@ -6,12 +6,15 @@ header {
     padding: 33px 0;
 }
 
+.border{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #828282;
+}
+
 .container {
     width: 940.6px;
     margin: auto;
-    padding-bottom: 32px;
     overflow: auto;
-    border-bottom: 1px solid #828282;
 }
 
 .menu ul {
@@ -36,7 +39,7 @@ header {
 }
 
 .info {
-    width: 940.6px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,8 +71,10 @@ header {
     margin-bottom: 30px;
 }
 
-img {
-    display: block;
+.img {
+    background-image: url("images/man.png");
+    width: 100%;
+    height: 387px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -130,4 +135,67 @@ h3 {
 .card p {
     margin-top: 24px;
     margin-bottom: 40px;
+}
+
+.app{
+    margin-left: 40px;
+}
+
+.all_sites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all_sites p{
+    text-decoration: underline;
+
+}
+
+
+@media (max-width: 375px) {
+    .container{
+        width: 316px;
+    }
+
+    .img{
+        background-image: url(images/man2.png);
+        background-repeat: no-repeat;
+        height: 478px;
+    }
+
+    header{
+        display: none;
+    }
+
+    .info{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 65px;
+    }
+
+    .languages{
+        display: none;
+    }
+
+    .menu_img{
+        background: url("images/Group 3.svg");
+        background-repeat: no-repeat;
+        height: 33px;
+        width: 20px;
+    }
+
+    .all_cards{
+        flex-direction: column;
+    }
+
+    .card, .card:last-child{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 80px;
+    }
+
+    .app{
+        margin-left: 40px;
+    }
 }
