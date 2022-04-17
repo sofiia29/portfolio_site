@@ -1,5 +1,41 @@
 body {
     margin: 0;
+    font-family: Roboto;
+}
+
+.popup_menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.elements{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+    align-items: flex-start;
+}
+
+.menu_list{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_list ul li{
+    font-size: 34px;
+    margin-bottom: 68px;
+    padding-left: 26px;
+}
+
+.elements img{
+    margin-right: 26px;
 }
 
 header {
@@ -23,19 +59,21 @@ header {
     color: #828282;
 }
 
-.selected {
-    color: #070707;
-}
-
 .menu ul li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 155.65px;
+    margin-right: 150px;
     font-size: 18px;
+    transition: 0.4s;
 }
 
 .menu ul li:last-child {
     margin-right: 0;
+}
+
+.menu ul li:hover{
+    color: #070707;
+    font-weight: bold;
 }
 
 .info {
@@ -112,7 +150,7 @@ h3 {
     margin: 0;
 }
 
-.white p {
+.skills p {
     margin-bottom: 0;
     margin-bottom: 83px;
     margin-top: 70px;
@@ -152,6 +190,41 @@ h3 {
 
 }
 
+.card1{
+    margin-left: 257px;
+}
+
+button{
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts img{
+    margin-right: 60px;
+}
+
+.contacts img:last-child{
+    margin-right: 0;
+}
+
+footer p{
+    margin-top: 46px !important;
+}
+
 
 @media (max-width: 375px) {
     .container{
@@ -171,7 +244,6 @@ h3 {
     .info{
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 65px;
     }
 
     .languages{
@@ -183,6 +255,14 @@ h3 {
         background-repeat: no-repeat;
         height: 33px;
         width: 20px;
+        margin-top: 10px;
+
+    }
+
+    .mobile_menu{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .all_cards{

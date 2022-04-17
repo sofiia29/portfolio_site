@@ -4,15 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="task8_style.css">
+	<script type="text/javascript" src="task8.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	<title>Title</title>
 </head>
 <body>
+
+	<div class="popup_menu">
+		<div class="elements">
+			<div class="menu_list">
+				<ul>
+					<li>Home</li>
+					<li>About me</li>
+					<li>Skills</li>
+					<li>Portfolio</li>
+					<li>Contacts</li>
+				</ul>
+			</div>
+			<img src="images/close.svg" onclick="hide_menu()">
+		</div>
+		
+	</div>
 
 	<header>
 		<div class="container border">
 			<div class="menu">
 				<ul>
-					<li class="selected">Home</li>
+					<li>Home</li>
 					<li>About me</li>
 					<li>Skills</li>
 					<li>Portfolio</li>
@@ -24,12 +44,15 @@
 
 	<section>
 		<div class="container">
-			<div class="info">
-				<h1>Denis Novik</h1>
-				<p>UX | UI designer <br> 24 years old, Minsk</p>
-				<div class="languages"> RU | ENG</div>
+			<div class="mobile_menu">
+				<div class="info">
+					<h1>Denis Novik</h1>
+					<p>UX | UI designer <br> 24 years old, Minsk</p>
+					<div class="languages"> RU | ENG</div>
+				</div>
+				<div class="menu_img" onclick="show_menu()"></div>
 			</div>
-			<div class="menu_img"></div>
+			
 			<div class="img"></div>
 		</div>
 		
@@ -45,7 +68,7 @@
 	</section>
 
 	<section>
-		<div class="white">
+		<div class="white skills">
 			<h3>Skills</h3>
 			<p>I work in such programs as</p>
 			<div class="all_cards">
@@ -81,17 +104,17 @@
 		<div class="backgr">
 			<h3>Portfolio</h3>
 			<div all_sites>
-				<div class="card">
+				<div class="card1">
 					<img src="images/site1.png">
 					<p>Online fashion store - Homepage</p>
 				</div>
 
-				<div class="card">
+				<div class="card1">
 					<img src="images/site2.png">
 					<p>Reebok Store - Concept</p>
 				</div>
 
-				<div class="card">
+				<div class="card1">
 					<img src="images/site3.png">
 					<p>Braun Landing Page - Concept</p>
 				</div>
@@ -99,6 +122,23 @@
 			
 		</div>
 	</section>
+
+	<footer>
+		<div class="white">
+			<h3>Contacts</h3>
+			<p>Want to know more or just chat? <br>You are welcome!</p>
+			<button>Send message</button>
+			<div class="contacts">
+				<img src="images/linkedin.svg">
+				<img src="images/inst.svg">
+				<img src="images/behance.svg">
+				<img src="images/dribble.svg">
+			</div>
+			
+			<p>Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
+		</div>
+		
+	</footer>
 
 
 	
