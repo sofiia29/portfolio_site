@@ -3,7 +3,7 @@ body {
     font-family: Roboto;
 }
 
-.popup_menu{
+.popup_menu {
     position: fixed;
     background-color: white;
     width: 100%;
@@ -11,14 +11,14 @@ body {
     display: none;
 }
 
-.elements{
+.elements {
     display: flex;
     justify-content: space-between;
     margin-top: 66px;
     align-items: flex-start;
 }
 
-.menu_list{
+.menu_list {
     display: flex;
     flex-direction: column;
 }
@@ -28,13 +28,13 @@ body {
     padding: 0;
 }
 
-.menu_list ul li{
+.menu_list ul li {
     font-size: 34px;
     margin-bottom: 68px;
     padding-left: 26px;
 }
 
-.elements img{
+.elements img {
     margin-right: 26px;
 }
 
@@ -42,7 +42,7 @@ header {
     padding: 33px 0;
 }
 
-.border{
+.border {
     padding-bottom: 32px;
     border-bottom: 1px solid #828282;
 }
@@ -71,7 +71,7 @@ header {
     margin-right: 0;
 }
 
-.menu ul li:hover{
+.menu ul li:hover {
     color: #070707;
     font-weight: bold;
 }
@@ -103,7 +103,7 @@ header {
     padding: 0;
 }
 
-.languages{
+.languages {
     font-weight: bold;
     transform: rotate(-90deg);
     margin-bottom: 30px;
@@ -160,41 +160,42 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 90px;
 }
 
 .card {
-    margin-right: 168px;
-}
-
-.card:last-child {
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 207px;
 }
 
 .card p {
     margin-top: 24px;
     margin-bottom: 40px;
+    height: 44px;
 }
 
-.app{
-    margin-left: 40px;
-}
-
-.all_sites{
+.all_sites {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.all_sites p{
+.all_sites p {
     text-decoration: underline;
 
 }
 
-.card1{
-    margin-left: 257px;
+.card1 {
+    margin: 0 auto 50px;
 }
 
-button{
+.card1 img {
+    margin-bottom: 45px;
+}
+
+button {
     display: block;
     border: none;
     background-color: black;
@@ -207,50 +208,50 @@ button{
     margin-bottom: 30px;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.contacts img{
+.contacts img {
     margin-right: 60px;
 }
 
-.contacts img:last-child{
+.contacts img:last-child {
     margin-right: 0;
 }
 
-footer p{
+footer p {
     margin-top: 46px !important;
 }
 
 
 @media (max-width: 375px) {
-    .container{
+    .container {
         width: 316px;
     }
 
-    .img{
+    .img {
         background-image: url(images/man2.png);
         background-repeat: no-repeat;
         height: 478px;
     }
 
-    header{
+    header {
         display: none;
     }
 
-    .info{
+    .info {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .languages{
+    .languages {
         display: none;
     }
 
-    .menu_img{
+    .menu_img {
         background: url("images/Group 3.svg");
         background-repeat: no-repeat;
         height: 33px;
@@ -259,23 +260,23 @@ footer p{
 
     }
 
-    .mobile_menu{
+    .mobile_menu {
         margin-top: 65px;
         display: flex;
         justify-content: space-between;
     }
 
-    .all_cards{
+    .all_cards {
         flex-direction: column;
     }
 
-    .card, .card:last-child{
+    .card, .card:last-child {
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 80px;
     }
 
-    .app{
+    .app {
         margin-left: 40px;
     }
 }
